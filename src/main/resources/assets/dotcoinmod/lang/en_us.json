@@ -1,0 +1,10 @@
+{
+	"item.dotcoinmod.copper_coin": "Copper Coin",
+	"item.dotcoinmod.iron_coin": "Iron Coin",
+	"item.dotcoinmod.gold_coin": "Gold Coin",
+	"item.dotcoinmod.platinum_coin": "Platinum Coin",
+	"item.dotcoinmod.token": "Token",
+	"key.dotcoinmod.toggle_wallet": "Toggle Wallet",
+	"key.categories.dotcoinmod": "Dot Coin Mod"
+
+}

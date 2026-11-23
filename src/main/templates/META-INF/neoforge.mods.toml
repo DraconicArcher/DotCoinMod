@@ -1,0 +1,29 @@
+modLoader = "javafml"
+loaderVersion = "[4,)"
+license = "All rights reserved"
+
+[[mods]]
+modId = "dotcoinmod"
+version = "20.17.0"
+displayName = "Dot Coin Mod"
+authors = "SpaceCat97"
+description = '''
+Adds coins that can be dropped from mobs. Intended for modpack/server currencies.
+'''
+
+[[dependencies.dotcoinmod]]
+modId = "neoforge"
+mandatory = true
+versionRange = "[21.1,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.dotcoinmod]]
+modId = "minecraft"
+mandatory = true
+versionRange = "[1.21.1,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[mixins]]
+config = "coin.mixins.json"
